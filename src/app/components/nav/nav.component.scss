@@ -1,0 +1,26 @@
+.navbar {
+  background-color: black;
+  padding: 1% 5%;
+  margin-bottom: 2%;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link:hover,
+.navbar-brand:hover {
+  background-color: blue;
+}
+
+.nav-item {
+  margin: 0% 3%;
+}
+
+.presentacio {
+  text-align: center;
+}

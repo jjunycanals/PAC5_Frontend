@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mat-expansion-panel {
+  width: 100%;
+}
+
+.rounded {
+  width:200px;
+  height:auto;
+  margin: 3%;
+}

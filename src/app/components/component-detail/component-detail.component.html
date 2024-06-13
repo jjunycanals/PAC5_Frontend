@@ -1,0 +1,26 @@
+<div class="container mt-5">
+  <div class="col-md-9">
+    <button mat-raised-button color="primary" (click)="navigateToList()">Tornar</button>
+  </div>
+  <div *ngIf="people" class="row animate__animated animate__fadeIn">
+    <div class="col-md-9">
+      <h2>{{ people.name }}</h2>
+      <img src="../../../assets/img/{{ people.id }}.jpg" class="rounded">
+    </div>
+
+
+  </div>
+  <div class="col-md-9">
+    <button mat-raised-button color="accent" (click)="toggleDetails()">Show Details</button>
+  </div>
+  <div *ngIf="showDetails" class="row mt-3 animate__animated animate__fadeIn">
+        <div class="col-md-9">
+        <p><strong>Height:</strong> {{ people?.height }}</p>
+        <p><strong>Mass:</strong> {{ people?.mass }}</p>
+        <p><strong>Eye Color:</strong> {{ people?.eye_color }}</p>
+        <p><strong>Skin Color:</strong> {{ people?.skin_color }}</p>
+        <p><strong>Birth Year:</strong> {{ people?.birth_year }}</p>
+        <p><strong>URL:</strong> {{ people?.url }}</p>
+      </div>
+  </div>
+</div>

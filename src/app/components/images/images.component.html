@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Images</h1>
+  <ul class="list-group">
+    <li *ngFor="let image of images" class="list-group-item list-group-item-action animate__animated animate__bounce animate__fadeIn">
+      <a (click)="navigateToImage(image.id)" class="list-group-item list-group-item-action">
+        {{ image.id }} - {{ image.author }}
+
+      </a>
+    </li>
+  </ul>
+</div>
