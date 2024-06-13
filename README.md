@@ -1,12 +1,12 @@
 # PAC 5
 
-Desplegament de la web: https://peoplesw.netlify.app
-Repositori: https://github.com/jjunycanals/PAC5_Frontend.git
+### Desplegament de la web: https://peoplesw.netlify.app
+### Repositori: https://github.com/jjunycanals/PAC5_Frontend.git
 
 ## Indicacions PAC 5
-Per aquest pac 5 he escollit utilitzar la api de star wars https://swapi.dev/api/, podeu accedir a la documentació fent a <a href="https://swapi.dev/">click aquí</a></p>
+#### Per aquest pac 5 he escollit utilitzar la api de star wars https://swapi.dev/api/, podeu accedir a la documentació fent clic a https://swapi.dev/
 
-He fet ús de la part de personatges https://swapi.dev/api/people/
+#### He fet ús de la part de personatges https://swapi.dev/api/people/
 
 
 # AngularPwaIntroduction
